@@ -1,0 +1,8 @@
+<h2>
+  English-Vietnamese Dictionary
+</h2>
+<a routerLink="detail">Dictionary Detail</a>
+
+<input type="text" (change)="search($event.target.value)">
+
+<p *ngIf="word">Nghĩa của từ {{word.key}}:<a routerLink="detail">{{word.meaning}}</a></p>

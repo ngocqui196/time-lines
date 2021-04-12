@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 
 
-export interface IWord {
-  key: string;
-  meaning: string;
-}
+// export interface IWord {
+//   key: string;
+//   meaning: string;
+// }
 import {
   addMonths,
   addYears,

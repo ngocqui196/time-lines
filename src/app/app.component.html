@@ -1,5 +1,26 @@
-<nav>
-  <a routerLink="time" class="link"> Ứng dụng tính thời gian </a>
-  <a routerLink="youtube" class="link"> Youtube </a>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">WebSiteName</a>
+    </div>
+    <div></div>
+    <ul class="nav navbar-nav-scroll">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a routerLink="dictionary">You</a></li>
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span>
+      </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="youtube">youtube</a></li>
+      <li><a routerLink="time">Time lines</a></li>
+    </ul>
+  </div>
 </nav>
 <router-outlet></router-outlet>
